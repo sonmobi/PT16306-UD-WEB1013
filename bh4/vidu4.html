@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8"> 
     <title>Document</title>
+    <style>
+        h1.red{ color: red;}
+        .green h1{ color: green;}
+        .blue>h1{ color: blue;}
+    </style>
 </head>
 <body>
-    <h1> Thẻ 1</h1>
+    <span class="red">Chữ đỏ</span>
+    <h1> Thẻ 1
+        <span class="red">Chữ đỏ</span>
+
+    </h1>
     <h1 class="red"> Thẻ 2</h1>
     <div class="green">
         <h1> Thẻ 3</h1>
@@ -19,6 +28,5 @@
             <h1> Thẻ 6</h1>
         </div>
     </div>  
-
 </body>
 </html>
