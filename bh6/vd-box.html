@@ -24,14 +24,21 @@
             background-color: yellow;
         }
         div.k2{
-            width: 200px;    height: 50px;
+            width: 300px;    height: 200px;
             border-radius: 30px; /*bo tròn cả 4 góc*/
             border-radius: 0px 30px 30px 0px;
             /*Viết gộp bo tròn góc theo thứ tự:  TopLeft TopRight BottomRight BottomLeft*/
             /*Tạo hình tròn: Cho kích thước width bằng với height sau đó
               cho border-radus cả 4 góc là 100%.
             */
-       
+            background: url("bg2.png"); /*Dùng ảnh làm nền*/
+            background-repeat: no-repeat; /*chế độ lặp lại ảnh nền*/
+            /*no-repeat: không lặp lại, repeat-x: lặp ngang*/
+
+              /* background-size: cover; zoom ảnh nền cho vừa với kích thước của thẻ,
+            thường dùng kèm với no-repeat*/
+
+            background-position: center;
         }
     </style>
 
