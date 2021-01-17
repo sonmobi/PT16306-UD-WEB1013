@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 5px solid red;
+        }
+        div.xanh{ border-color: blue;/* màu cho khung viền*/
+            width: 300px;
+            height: 100px;
+            /* margin: 20px; */
+            /* margin-bottom: 20px; */
+            margin: 30px 0px 30px 0px; /*Viết gộp lề ngoài theo thứ tự hướng: TOP RIGHT BOTTOM LEFT*/
+            padding:20px 10px 10px 10px; /* Viết gộp lề trong theo thứ tự như trên*/
+            border-top-color: red; /* màu cho khung ở cạnh trên*/
+            border-top-width: 10px;  /*Độ dày khung viền trên*/
+            border-top-style: dotted; /*Kiểu nét vẽ viền trên*/
+            /* viền bên trái dùng border-left-...*/
+            border-right-color: green;
+            box-shadow: 10px 10px 20px red;  /*đổ bóng cho khối*/
+            background-color: yellow;
+        }
+        div.k2{
+            width: 200px;    height: 50px;
+            border-radius: 30px; /*bo tròn cả 4 góc*/
+            border-radius: 0px 30px 30px 0px;
+            /*Viết gộp bo tròn góc theo thứ tự:  TopLeft TopRight BottomRight BottomLeft*/
+            /*Tạo hình tròn: Cho kích thước width bằng với height sau đó
+              cho border-radus cả 4 góc là 100%.
+            */
+       
+        }
+    </style>
+
+</head>
+<body>
+    <div class="xanh">Khối số 1</div>
+    <div class="k2">Khối số 2</div>
+</body>
+</html>
