@@ -1,0 +1,35 @@
+body{
+    background-color: #ccc;
+    margin: 0px;
+}
+
+#page{
+    background-color: #fff;
+    width: 1000px;
+    margin: auto;
+}
+header#top-page{
+    height: 100px;
+    background-color: greenyellow;
+}
+nav#main-nav{
+    height: 30px;
+    background: blue;
+}
+article{
+    height: 500px;
+    background-color: yellow;
+    width: 800px;
+    float: left;
+}
+aside{
+    height: 500px;
+    background-color: cyan;
+    width: 200px;
+    float: left;
+}
+footer#footer-page{
+    clear: both;
+    height: 100px;
+    background: rgb(121, 120, 120);
+}
