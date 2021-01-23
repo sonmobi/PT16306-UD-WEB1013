@@ -1,0 +1,28 @@
+#v-menu{
+    width: 200px;
+    background-color: khaki;
+}
+#v-menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 200px;
+}
+#v-menu ul li{ position: relative;}
+#v-menu>ul>li>ul{
+    position: absolute; left: 100% ; top: 0%; 
+    display: none;
+}
+#v-menu ul li a{
+    display: block;
+    padding:5px;
+    border: 1px solid red;
+    text-decoration: none;
+    font-family: arial;
+}
+#v-menu ul li a:hover{
+    background-color: yellow;
+}
+#v-menu ul li:hover>ul{
+    display: block;
+}
