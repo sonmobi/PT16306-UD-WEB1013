@@ -20,7 +20,13 @@
     border: 1px solid red;
     text-decoration: none;
     font-family: arial;
+    
     background-color: yellowgreen;
+    background-image: url('https://raw.githubusercontent.com/sonmobi/PT16353-MOB-WEB1013/master/bh9/menu/ic_arr.png');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-size: 15px;
+    background-position-y: 6px;
 }
 #v-menu ul li a:hover{
     background-color: yellow;
