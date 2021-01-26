@@ -6,9 +6,9 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
-    width: 200px;
+    
 }
-#v-menu ul li{ position: relative;}
+#v-menu ul li{ position: relative; width: 200px;}
 #v-menu>ul>li>ul{
     /* Menu 1 cấp thì bỏ phần này */
     position: absolute; left: 100% ; top: 0%; 
@@ -20,6 +20,7 @@
     border: 1px solid red;
     text-decoration: none;
     font-family: arial;
+    background-color: yellowgreen;
 }
 #v-menu ul li a:hover{
     background-color: yellow;
