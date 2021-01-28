@@ -4,22 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #hoten{
+            width: 50px;
+        }
+        #hoten:focus{
+            width: 200px; background-color: yellow;
+            outline: 1px solid red;
+            border: none;
+        }
+        #hoten:disabled{
+            color: brown; background-color: darkgray;
+        }
+    </style>
 </head>
 <body>
     
     <h2>Ví dụ 2 về form</h2>
 
     <form action="">
-        Họ tên: <input type="text" /> <br>
+        Họ tên: <input id="hoten"  tabindex="3" type="text" placeholder="Hãy nhập tiếng Việt" /> <br>
         Nội dung ghi chú: <br>
-        <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+        <textarea tabindex="1"    placeholder="GHi chú" name="" id="" 
+        cols="30" rows="10"></textarea> <br>
         Chọn Lớp:
-        <select name="lop" id="">
+        <select  tabindex="2" name="lop" id="">
             <option value="1">HTML 01</option>
             <option value="2">PT12435</option>
             <option value="3">PT122225</option>
         </select>
 
+        <input type="email" placeholder="Nhập email" required >
+        <input type="number" name="" id="" placeholder="Nhập số">
+        <input type="date">
+        <button>Gửi form</button>
     </form>
 
 
